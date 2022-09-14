@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background: url(../image/pexels-eberhard-grossgasteiger-572897.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container{
+  max-width: 400px;
+  margin: 20vh auto 10vh auto;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 6px 7px 12px gray;
+transition: 6s ease-in-out;
+
+}
+.history{
+  padding: 35px;
+  color: #000;
+  font-size: 30px;
+  border: 1px solid black;
+  background-color: gainsboro;
+  overflow: hidden;
+}
+.box{
+  padding: 25px;
+}
+.box h5{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.keyboard{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.774);
+  background: url(../image/smoke.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.keyboard:hover{
+transition: 5s ease-in-out;
+background-position: bottom;
+}
+.button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: bold;
+  text-align: center;
+  font-size: large;
+  box-shadow: 3px 3px 4px rgb(187, 179, 179)
+}
+.button:hover{
+  background-color: #000;
+  color: #fff;
+  font-size: larger;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+/* idss///////////////// */
+#equals{
+  background-color: slateblue;
+
+}
+#clear{
+  background-color: rgba(190, 57, 57, 0.74)
+}
+#bracket{
+  background-color: yellowgreen;
+}
+#percent{
+  background-color: skyblue;
+}
+#divide{
+  background-color: violet;
+}
+#multi{
+background-color: cadetblue;
+}
+#minus{
+  background-color: salmon;
+}
+#add{
+  background-color: darkcyan;
+}
